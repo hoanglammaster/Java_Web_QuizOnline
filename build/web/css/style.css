@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2021, 12:33:42 AM
+    Author     : hoang
+*/
+
+body {
+    background-color: rgb(125, 109, 93);
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    margin: 45px 50px;
+    padding: 35px 35px;
+    border: 1px solid rgb(125, 109, 93);
+    min-height: 590px;
+}
+
+ul {
+    background: linear-gradient(rgb(221, 211, 200), white);
+    border-radius: 30px;
+    padding: 30px 95px;
+    border: none;
+    font-size: 30px;
+}
+
+li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(91, 81, 70);
+    font-weight: 700;
+}
+
+.main-content {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.header {
+    margin-bottom: 90px;
+    font-size: 25px;
+}
+
+.header h2 {
+    color: rgb(0, 0, 128);
+    font-size: 25px;
+}
+
+.sub-content{
+    color: rgb(108, 125, 144);
+    font-size: 25px;
+}
+
+.sub-content input {
+    font-size: 25px;
+}
+
+
+#fullName {
+    color: blue;
+}
+
+#button-start {
+    margin-left: 40%;
+}
+#input-ques-number {
+    width: 100px;    
+}
+#time-remaining {
+    margin-left: 50%;
+}
+.error-num-of-ques {
+    color: red;
+}
+
+#ques-textarea {
+    width: 700px;
+    height: 150px;
+    font-size: 25px;
+}
+
+.option-textarea {
+    width: 700px;
+    height: 100px;
+    font-size: 25px;
+}
+
+.td-content {
+    vertical-align: super;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
+.blue-mark {
+    color:blue;
+}
+
+.red-mark {
+    color:red;
+}
+.spacing-column {
+    border-spacing: 20px 5px;
+}
+
+.button {
+  float: right;
+  font-size: 45px;
+  margin-right: 30%;
+}
+.head-row{
+    padding-bottom: 30px;
+}
